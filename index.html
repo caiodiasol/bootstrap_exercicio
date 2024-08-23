@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - Perfumes - Oiac.io</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="logotipo" class="fixed-top">
+        <div class="container">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#logotipo">
+                        <img src="./logos/logo1.png" alt="logo" class="d-inline-block align-text-top">
+                    </a>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#masculinos">Masculinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#femininos">Femininos</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div id="carousel-perfumes" class="carousel slide carousel-fade pb-4 pt-3" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 rounded" src="./img/BannerBlog_1361x618_24_MalbecIcon-1.webp">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div data-bs-iterval="3000" class="carousel-item">
+                    <img class="d-block w-100 rounded" src="./img/1361x618_22_Banner_Blog-Malbec-1.webp">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div data-bs-iterval="3000" class="carousel-item">
+                    <img class="d-block w-100 rounded" src="./img/blog_1361x618_24_Linha-MEN.jpg">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100 rounded" src="./img/blog_1361x618_24C11_Floratta-Red-e-Floratta-Red-Blossom.webp">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-perfumes" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button data-bs-target="#carousel-perfumes" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+            <div class="carousel-indicators pb-4">
+                <button type="button" class="active" data-bs-target="#carousel-perfumes" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-perfumes" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-perfumes" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-perfumes" data-bs-slide-to="3"></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="masculinos" class="container">
+        <h2 class="text-center">Masculinos</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-header fw-bold text-center">
+                        Perfumes para Homens
+                    </div> 
+                    <img src="img/malbec icon.webp" class="card-img-top" alt="Imagem do malbec">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-center">Malbec Desodorante Colônia 100ml</h4>
+                        <a href="#" class="btn btn-success px-5 py-2">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-header fw-bold text-center">
+                        Perfumes para Homens
+                    </div> 
+                    <img src="./img/BOTICA-214_DARK_.webp" class="card-img-top" alt="Imagem do dark mint">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-center">Botica 214 Dark Mint Eau de Parfum 90ml</h4>
+                        <a href="#" class="btn btn-success px-5 py-2">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-header fw-bold text-center">
+                        Perfumes para Homens
+                    </div>
+                    <img src="./img/ZAAD-EDP-50ml-.webp" class="card-img-top" alt="Imagem do zaad">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-center">Botica - Zaad Eau de Parfum 50ml</h4>
+                        <a href="#" class="btn btn-success px-5 py-2">Comprar</a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="femininos" class="container">
+        <h2 class="text-center">Femininos</h2>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-header fw-bold text-center">
+                        Perfumes para Mulheres
+                    </div> 
+                    <img src="./img/florata.webp" class="card-img-top" alt="Imagem do florata">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-center">Floratta Cerejeira Em Flor Desodorante Colônia 75ml</h4>
+                        <a href="#" class="btn btn-success px-5 py-2">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-header fw-bold text-center">
+                        Perfumes para Mulheres
+                    </div> 
+                    <img src="./img/botica-214-african-sunrise-perfume-edp-frontal-01.webp" class="card-img-top" alt="Imagem do african sunrise">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-center">Botica 214 African Sunrise Floral Frutal Eau de Parfum 75ml</h4>
+                        <a href="#" class="btn btn-success px-5 py-2">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-header fw-bold text-center">
+                        Perfumes para Mulheres
+                    </div>
+                    <img src="./img/LILY_EDP-LOVE-75ml-V2-B77517_.webp" class="card-img-top" alt="Imagem do Lily">
+                    <div class="card-body text-center">
+                        <h4 class="card-title text-center">Botica - Love Lily Eau de Parfum 75ml</h4>
+                        <a href="#" class="btn btn-success px-5 py-2">Comprar</a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    
+    
+
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

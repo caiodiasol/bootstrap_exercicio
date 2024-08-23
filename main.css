@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(233, 182, 29, 0.878);
+}
+
+body {
+    padding-top: 70px;
+    background-color:#fff;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fixed-top{
+    position: fixed;
+    width: 100%;
+    z-index: 1030;
+}
+
+
